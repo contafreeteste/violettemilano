@@ -22,45 +22,45 @@ interface Pillar {
 const pillars: Pillar[] = [
   {
     icon: Crown,
-    title: "Sophistication",
+    title: "Sofisticação",
     description:
-      "Every detail is meticulously considered, from formulation to presentation.",
+      "Cada detalhe é meticulosamente considerado, da formulação à apresentação.",
   },
   {
     icon: Gem,
-    title: "Quality",
+    title: "Qualidade",
     description:
-      "We source only the finest ingredients, ensuring uncompromising standards.",
+      "Selecionamos apenas os melhores ingredientes, garantindo padrões de qualidade intransigentes.",
   },
   {
     icon: Sparkles,
-    title: "Premium Experience",
+    title: "Experiência Premium",
     description:
-      "Each interaction with our brand is designed to feel extraordinary.",
+      "Cada interação com a nossa marca foi concebida para ser extraordinária.",
   },
   {
     icon: Flower2,
-    title: "Modern Femininity",
+    title: "Feminilidade Moderna",
     description:
-      "Celebrating the multifaceted nature of contemporary women.",
+      "Celebrando a natureza multifacetada da mulher contemporânea.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Inovação",
     description:
-      "Bridging timeless wisdom with cutting-edge skincare science.",
+      "Unindo a sabedoria ancestral à ciência de ponta em cuidados com a pele.",
   },
   {
     icon: Heart,
-    title: "Personal Care",
+    title: "Cuidado Pessoal",
     description:
-      "Empowering rituals of self-care that nurture body and spirit.",
+      "Rituais de autocuidado que nutrem o corpo e o espírito.",
   },
   {
     icon: Palette,
-    title: "Refined Aesthetic",
+    title: "Estética Refinada",
     description:
-      "A visual language that embodies elegance in every expression.",
+      "Uma linguagem visual que incorpora elegância em cada expressão.",
   },
 ];
 
@@ -78,7 +78,7 @@ export default function Philosophy() {
             transition={{ duration: 0.6 }}
             className="text-xs tracking-[0.3em] uppercase text-purple-mid"
           >
-            Our Philosophy
+            Nossa Filosofia
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -86,7 +86,7 @@ export default function Philosophy() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-normal md:text-4xl lg:text-5xl"
           >
-            The pillars of our identity
+            Os pilares da nossa identidade
           </motion.h2>
         </div>
 

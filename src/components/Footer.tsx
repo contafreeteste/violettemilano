@@ -14,17 +14,18 @@ export default function Footer() {
               Violette Milano
             </h3>
             <p className="mt-4 text-sm font-light leading-relaxed text-white/50">
-              Luxury skincare inspired by timeless elegance. Crafted with
-              sophistication, care, and an unwavering commitment to quality.
+              Nem toda marca nasce para vender.
+              Algumas nascem para transformar
+              a forma como uma mulher se sente.
             </p>
           </div>
 
           <div>
             <h4 className="text-xs tracking-[0.2em] uppercase text-white/40">
-              Navigation
+              Navegação
             </h4>
             <ul className="mt-4 space-y-3">
-              {["About", "Manifesto", "Philosophy", "Vision", "Contact"].map(
+              {["Sobre", "Manifesto", "Filosofia", "Visão", "Contato"].map(
                 (item) => (
                   <li key={item}>
                     <a
@@ -41,14 +42,14 @@ export default function Footer() {
 
           <div>
             <h4 className="text-xs tracking-[0.2em] uppercase text-white/40">
-              Connect
+              Conectar
             </h4>
             <div className="mt-4 space-y-3">
               <a
-                href="mailto:contact@violettemilano.com"
+                href="mailto:VioletteMilanoComercial@outlook.com"
                 className="block text-sm font-light text-white/60 transition-colors duration-300 hover:text-accent"
               >
-                contact@violettemilano.com
+                VioletteMilanoComercial@outlook.com
               </a>
               <div className="flex gap-4 pt-2">
                 <a

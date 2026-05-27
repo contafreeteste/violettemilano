@@ -60,7 +60,7 @@ export default function Vision() {
             transition={{ duration: 0.6 }}
             className="text-xs tracking-[0.3em] uppercase text-accent"
           >
-            Our Vision
+            Nossa Visão
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -68,7 +68,7 @@ export default function Vision() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-normal text-white md:text-4xl lg:text-5xl"
           >
-            A journey of elegance
+            Uma jornada de elegância
           </motion.h2>
         </div>
 

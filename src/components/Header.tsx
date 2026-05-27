@@ -6,11 +6,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "About", href: "#about" },
+  { label: "Sobre", href: "#about" },
   { label: "Manifesto", href: "#manifesto" },
-  { label: "Philosophy", href: "#philosophy" },
-  { label: "Vision", href: "#vision" },
-  { label: "Contact", href: "#contact" },
+  { label: "Filosofia", href: "#philosophy" },
+  { label: "Visão", href: "#vision" },
+  { label: "Contato", href: "#contact" },
 ];
 
 export default function Header() {
@@ -37,7 +37,7 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-12">
         <a href="#" className="flex items-center gap-3">
           <Image
-            src="/logo.jpeg"
+            src="/logo.png"
             alt="Violette Milano"
             width={40}
             height={40}

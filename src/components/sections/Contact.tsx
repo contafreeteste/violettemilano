@@ -29,26 +29,26 @@ export default function Contact() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <p className="text-xs tracking-[0.3em] uppercase text-purple-mid">
-              Get in Touch
+              Entre em contato
             </p>
             <h2 className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-normal leading-snug md:text-4xl lg:text-5xl">
-              Let&apos;s start
-              <br />a conversation
+              Vamos iniciar
+              <br />uma conversa
             </h2>
             <p className="mt-6 text-sm font-light leading-relaxed text-muted">
-              Whether you&apos;re interested in our products, seeking partnership
-              opportunities, or simply want to learn more about Violette
-              Milano, we&apos;d love to hear from you.
+              Se você tem interesse em nossos produtos, 
+              busca oportunidades de parceria ou simplesmente 
+              quer saber mais sobre a Violette Milano, adoraríamos ouvir você.
             </p>
 
             <div className="mt-12 space-y-6">
               <div className="flex items-center gap-4">
                 <Mail size={18} className="text-purple-mid" />
                 <a
-                  href="mailto:contact@violettemilano.com"
+                  href="mailto:VioletteMilanoComercial@outlook.com"
                   className="text-sm font-light text-muted transition-colors duration-300 hover:text-foreground"
                 >
-                  contact@violettemilano.com
+                  VioletteMilanoComercial@outlook.com
                 </a>
               </div>
 
@@ -79,16 +79,15 @@ export default function Contact() {
 
             <div className="mt-12 border-t border-border pt-8">
               <p className="text-xs tracking-[0.2em] uppercase text-purple-mid">
-                Partnerships
+                Parcerias
               </p>
               <p className="mt-3 text-sm font-light leading-relaxed text-muted">
-                For business inquiries and partnership opportunities, please
-                reach out to{" "}
+                Para assuntos comerciais e oportunidades de parceria, entre em contato pelo e-mail{" "}
                 <a
-                  href="mailto:partnerships@violettemilano.com"
+                  href="mailto:VioletteMilanoComercial@outlook.com"
                   className="text-foreground underline underline-offset-4 transition-colors duration-300 hover:text-purple-mid"
                 >
-                  partnerships@violettemilano.com
+                  VioletteMilanoComercial@outlook.com
                 </a>
               </p>
             </div>
@@ -105,7 +104,7 @@ export default function Contact() {
                   htmlFor="name"
                   className="block text-xs tracking-[0.2em] uppercase text-muted"
                 >
-                  Name
+                  Nome
                 </label>
                 <input
                   id="name"
@@ -116,7 +115,7 @@ export default function Contact() {
                     setFormData({ ...formData, name: e.target.value })
                   }
                   className="mt-3 w-full border-b border-border bg-transparent pb-3 text-sm font-light text-foreground outline-none transition-colors duration-300 placeholder:text-muted/40 focus:border-purple-mid"
-                  placeholder="Your name"
+                  placeholder="Seu nome"
                 />
               </div>
 
@@ -136,7 +135,7 @@ export default function Contact() {
                     setFormData({ ...formData, email: e.target.value })
                   }
                   className="mt-3 w-full border-b border-border bg-transparent pb-3 text-sm font-light text-foreground outline-none transition-colors duration-300 placeholder:text-muted/40 focus:border-purple-mid"
-                  placeholder="your@email.com"
+                  placeholder="seuemail@email.com"
                 />
               </div>
 
@@ -145,7 +144,7 @@ export default function Contact() {
                   htmlFor="message"
                   className="block text-xs tracking-[0.2em] uppercase text-muted"
                 >
-                  Message
+                  Mensagem
                 </label>
                 <textarea
                   id="message"
@@ -156,7 +155,7 @@ export default function Contact() {
                     setFormData({ ...formData, message: e.target.value })
                   }
                   className="mt-3 w-full resize-none border-b border-border bg-transparent pb-3 text-sm font-light text-foreground outline-none transition-colors duration-300 placeholder:text-muted/40 focus:border-purple-mid"
-                  placeholder="How can we help you?"
+                  placeholder="Como podemos ajudar?"
                 />
               </div>
 
@@ -166,7 +165,7 @@ export default function Contact() {
                 whileTap={{ scale: 0.98 }}
                 className="group flex items-center gap-3 border border-purple px-10 py-3.5 text-xs tracking-[0.25em] uppercase text-purple transition-all duration-500 hover:bg-purple hover:text-white"
               >
-                Send Message
+                Enviar Mensagem
                 <Send
                   size={14}
                   className="transition-transform duration-300 group-hover:translate-x-1"

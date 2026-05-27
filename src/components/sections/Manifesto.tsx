@@ -4,9 +4,9 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const phrases = [
-  "Beauty as expression.",
-  "Elegance as identity.",
-  "Care as experience.",
+  "A beleza como expressão.",
+  "Elegância como identidade.",
+  "Cuidado como experiência.",
 ];
 
 export default function Manifesto() {
@@ -26,7 +26,7 @@ export default function Manifesto() {
           transition={{ duration: 0.6 }}
           className="text-xs tracking-[0.3em] uppercase text-accent"
         >
-          Our Manifesto
+          Nosso Manifesto
         </motion.p>
 
         <div className="mt-16 space-y-10 md:mt-20 md:space-y-14">
@@ -60,9 +60,9 @@ export default function Manifesto() {
           transition={{ duration: 0.8, delay: 1.4 }}
           className="mx-auto mt-8 max-w-lg text-sm font-light leading-relaxed text-white/50"
         >
-          We believe that beauty is not about perfection — it is about
-          intention, presence, and the quiet confidence that comes from truly
-          caring for yourself.
+          Acreditamos que a beleza não se resume à perfeição, mas sim à intenção,
+          à presença e à confiança serena que advém do cuidado genuíno
+          consigo mesmo.
         </motion.p>
       </div>
     </section>

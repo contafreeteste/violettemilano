@@ -33,32 +33,35 @@ export default function About() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           >
             <p className="text-xs tracking-[0.3em] uppercase text-purple-mid">
-              Our Story
+              Nossa História
             </p>
             <h2 className="mt-4 font-[family-name:var(--font-playfair)] text-3xl font-normal leading-snug md:text-4xl lg:text-5xl">
-              Born from a passion
+              Nascida da paixão
               <br />
-              for refined beauty
+              pela beleza refinada
             </h2>
             <div className="mt-8 space-y-6 text-sm font-light leading-relaxed text-muted">
               <p>
-                Violette Milano was born in the heart of Milan, where art,
-                fashion, and beauty converge into a singular expression of
-                elegance. Our journey began with a simple yet profound belief:
-                that skincare is not merely a routine, but an intimate ritual of
-                self-care and transformation.
+                A Violette Milano nasce inspirada na sofisticação italiana
+                e no conceito de luxo acessível, transformando o autocuidado
+                diário em experiência sensorial refinada.
               </p>
               <p>
-                Every product we create is a testament to our commitment to
-                excellence. We source the finest ingredients from around the
-                world, combining time-honored botanical wisdom with cutting-edge
-                scientific innovation to deliver results that are as luxurious as
-                they are effective.
+                A marca foi criada para mulheres que valorizam a beleza, elegância,
+                feminilidade e bem-estar, oferencendo produtos de alta performance
+                aliados a fragrâncias sofisticadas, texturas premium e identidade
+                visual marcante.
               </p>
               <p>
-                Our philosophy is rooted in the idea that true beauty is an
-                expression of confidence, care, and authenticity. We believe that
-                every woman deserves to feel extraordinary in her own skin.
+                Nosso objetivo é desenvolver uma linha que desperte o desejo,
+                gere conexão emocional e transforme o momento de cuidado
+                em um ritual de autoestima.
+                <br />
+                Inspirada na elegância de Milão e criada para mulheres que
+                enxergam o cuidado como um ritual
+              </p>
+              <p>
+                BEM VINDA AO COMEÇO DE ALGO EXTRAORDINÁRIO.
               </p>
             </div>
           </motion.div>
